@@ -1,5 +1,16 @@
 {
+    "config": {
+        "platform": {
+            "php" : ">8.0"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "CliSWUpdater\\": "src/"
+        }
+    },
     "require": {
         "symfony/console": "^7.1"
     }
+    
 }
